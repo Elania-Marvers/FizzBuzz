@@ -1,5 +1,14 @@
-#include "printbase.h"
+/*
+** *****************************************************************************
+** baptiste.renneson
+** Elania <baptiste.renneson@gmail.com>
+**
+** printbase.c - 2022
+**
+** *****************************************************************************
+*/
 
+#include "printbase.h"
 
 int printbase	 (int		c,
 		  int		d)
