@@ -24,5 +24,5 @@ int	fizzbuzz (const int		start,
       write(1, "\n", 1);
       return fizzbuzz(start + 1, stop);
     }
-  return 1;
+  return 0;
 }
