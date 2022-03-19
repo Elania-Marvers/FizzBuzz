@@ -22,7 +22,7 @@ main (int argc, char *argv[])
 	  write (2, "Error: the second parameter must be greater than the first one.\n", 64);
 	  return 84;
 	}
-      return FizzBuzz(a, b);
+      return fizzbuzz(a, b);
     }
   else
     return 84;

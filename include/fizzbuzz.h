@@ -7,7 +7,7 @@
 int printbase	 (int		c,
 		  int		d);
 
-int	FizzBuzz (int		start,
-		  int		stop);
+int	fizzbuzz (const int		start,
+		  const int		stop);
 
 #endif //___FIZZBUZZ_H___

@@ -8,10 +8,10 @@
 ** *****************************************************************************
 */
 
-#include "FizzBuzz.h"
+#include "fizzbuzz.h"
 
-int	FizzBuzz (int		start,
-		  int		stop)
+int	fizzbuzz (const int		start,
+		  const int		stop)
 {
   if (start <= stop)
     {
@@ -22,7 +22,7 @@ int	FizzBuzz (int		start,
       if ((start % 5 != 0) && (start % 3 != 0))
 	printbase(start, 10);
       write(1, "\n", 1);
-      return FizzBuzz(start + 1, stop);
+      return fizzbuzz(start + 1, stop);
     }
   return 1;
 }
